@@ -2,7 +2,7 @@
 # DONT_REMOVE_THIS
 #  TheDarkW3b (c)
 
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 from telegram import ParseMode
 import logging
 import requests
