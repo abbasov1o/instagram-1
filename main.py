@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 TOKEN = "1754818557:AAHEoRmYo5x1CikibR5g13d7GsN0fYe_ldw"
 
-def download(bot, update):
+def download(bot, update, context: CallbackContext):
     message = update.effective_message
     instagram_post = message.text
     if instagram_post=="/start":
